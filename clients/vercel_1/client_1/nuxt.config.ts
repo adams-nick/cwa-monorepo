@@ -1,12 +1,17 @@
 // cwa-monorepo/clients/vercel-project-1/client-1/nuxt.config.ts
 import { defineNuxtConfig } from "nuxt/config";
-import baseConfig from "../../../shared/base-nuxt.config"; // Relative path to base config
+import baseConfig from "../../../shared/base-nuxt.config";
 import { resolve } from "path";
 
 export default defineNuxtConfig({
   ...baseConfig,
   alias: {
-    "@shared": resolve(__dirname, "../../../shared"), // Adjust path if necessary
+    "@shared": resolve(__dirname, "../../../shared"),
   },
-  // Add any client-specific configurations here if needed
+  runtimeConfig: {
+    public: {
+      BASE_API_URL: process.env.BASE_API_URL,
+      CLIENT_API_KEY: process.env.CLIENT_API_KEY,
+    },
+  },
 });

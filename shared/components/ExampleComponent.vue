@@ -1,17 +1,12 @@
 <!-- shared/components/ExampleComponent.vue -->
 <template>
   <div class="example-component">
-    <p>This is a shared component!</p>
+    <p>{{ apiUrl }}</p>
   </div>
 </template>
 
 <script setup>
-// Any component-specific logic
+const apiUrl = useRuntimeConfig().public.BASE_API_URL;
 </script>
 
-<style scoped>
-.example-component {
-  color: #333;
-  padding: 10px;
-}
-</style>
+<style scoped></style>

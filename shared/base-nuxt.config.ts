@@ -3,6 +3,8 @@ import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
   ssr: true, // Enable SSR as default
-  css: [],
+  css: [
+    "@shared/styles/global.scss", // Global CSS applied to all clients
+  ],
   components: true,
 });
