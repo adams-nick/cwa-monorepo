@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "turbo": "^2.2.3"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.2"
+  }
+}
