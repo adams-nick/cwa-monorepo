@@ -4,5 +4,19 @@
   },
   "dependencies": {
     "nuxt": "^3.13.2"
-  }
+  },
+  "name": "cwa-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev --scope=client-1",
+    "build": "turbo run build",
+    "start": "turbo run start"
+  },
+  "devDependencies": {
+    "turbo": "^1.7.0"
+  },
+  "workspaces": [
+    "clients/vercel-project-1/client-1"
+  ]
 }

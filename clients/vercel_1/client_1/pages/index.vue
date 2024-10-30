@@ -1,3 +1,9 @@
 <template>
-  <h1>Welcome to Client 1's Site!</h1>
+  <div>
+    <ExampleComponent />
+  </div>
 </template>
+
+<script setup>
+import ExampleComponent from "@shared/components/ExampleComponent.vue";
+</script>
