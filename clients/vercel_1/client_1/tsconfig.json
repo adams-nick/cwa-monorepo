@@ -1,6 +1,12 @@
 {
   "extends": "../../../tsconfig.json",
-  "compilerOptions": {
-    "types": ["@nuxt/types"]
-  }
+  "include": [
+    "nuxt.config.js", // Target only the Nuxt config file for each client
+    "./custom-code.ts", // Custom code for client
+    "./firebase-handler.ts" // Firebase handler if needed
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.vue" // Exclude `.vue` files from TypeScript
+  ]
 }

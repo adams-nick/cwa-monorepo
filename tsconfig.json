@@ -3,6 +3,20 @@
     "baseUrl": ".",
     "paths": {
       "@shared/*": ["./shared/*"]
-    }
-  }
+    },
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "skipLibCheck": true
+  },
+  "include": [
+    "shared/**/*.ts", // Include shared TypeScript files
+    "clients/**/custom-code.ts",
+    "clients/**/firebase-handler.ts", // Assuming these are Firebase-related handlers
+    "nuxt.config.ts" // All Nuxt config files
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.vue" // Exclude `.vue` files
+  ]
 }

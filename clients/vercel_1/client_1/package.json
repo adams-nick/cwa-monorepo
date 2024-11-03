@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "lint": "eslint . --ext .js,.ts,.vue"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,12 @@
     "nuxt": "latest"
   },
   "devDependencies": {
-    "sass-embedded": "^1.80.5"
+    "sass-embedded": "^1.80.5",
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "prettier": "^2.8.8"
   }
 }

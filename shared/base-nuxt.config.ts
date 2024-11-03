@@ -1,10 +1,10 @@
-// cwa-monorepo/shared/base-nuxt.config.ts
-import { defineNuxtConfig } from "nuxt/config";
-
-export default defineNuxtConfig({
-  ssr: true, // Enable SSR as default
-  css: [
-    "@shared/styles/global.scss", // Global CSS applied to all clients
-  ],
+export default {
+  ssr: true,
+  css: ["@shared/styles/global.scss"],
   components: true,
-});
+  runtimeConfig: {
+    public: {
+      BASE_API_URL: "https://default-api.com", // Default fallback
+    },
+  },
+}

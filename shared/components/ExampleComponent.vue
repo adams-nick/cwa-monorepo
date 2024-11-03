@@ -1,4 +1,3 @@
-<!-- shared/components/ExampleComponent.vue -->
 <template>
   <div class="example-component">
     <p>{{ apiUrl }}</p>
@@ -6,7 +5,10 @@
 </template>
 
 <script setup>
-const apiUrl = useRuntimeConfig().public.BASE_API_URL;
+const {
+  public: { BASE_API_URL },
+} = useRuntimeConfig()
+const apiUrl = BASE_API_URL
 </script>
 
 <style scoped></style>

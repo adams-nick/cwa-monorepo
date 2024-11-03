@@ -1,7 +1,13 @@
 {
   "devDependencies": {
     "sass-embedded": "^1.80.5",
-    "turbo": "^1.7.0"
+    "turbo": "^1.7.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "prettier": "^2.8.8"
   },
   "dependencies": {
     "nuxt": "^3.13.2"
@@ -12,7 +18,8 @@
   "scripts": {
     "dev": "turbo run dev --scope=client-1",
     "build": "turbo run build",
-    "start": "turbo run start"
+    "start": "turbo run start",
+    "lint": "eslint . --ext .js,.ts,.vue"
   },
   "workspaces": [
     "clients/vercel-project-1/client-1"

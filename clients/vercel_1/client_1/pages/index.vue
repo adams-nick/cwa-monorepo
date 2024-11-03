@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import ExampleComponent from "@shared/components/ExampleComponent.vue";
+import ExampleComponent from "@shared/components/ExampleComponent.vue"
 </script>

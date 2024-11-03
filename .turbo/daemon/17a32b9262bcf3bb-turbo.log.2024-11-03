@@ -1,0 +1,26 @@
+2024-11-03T19:26:06.258969Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/.turbo-cookie"), AnchoredSystemPathBuf(".turbo/cookies/1.cookie")}
+2024-11-03T19:26:06.258979Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:29:59.876031Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("shared/base-nuxt.config.ts")}
+2024-11-03T19:29:59.876114Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:30:07.277663Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("shared/components/ExampleComponent.vue")}
+2024-11-03T19:30:07.277705Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:30:35.180376Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/pages/index.vue")}
+2024-11-03T19:30:35.180512Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:34:12.482584Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".eslintrc.js")}
+2024-11-03T19:34:12.482633Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:34:15.782221Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/pages/index.vue")}
+2024-11-03T19:34:15.782244Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:34:37.682491Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/2.cookie")}
+2024-11-03T19:34:37.682515Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:37:34.184008Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".eslintrc.js")}
+2024-11-03T19:37:34.184063Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:41:02.786553Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("shared/components/ExampleComponent.vue")}
+2024-11-03T19:41:02.786610Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:42:36.987052Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("shared/components/ExampleComponent.vue")}
+2024-11-03T19:42:36.987135Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:42:38.687285Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("shared/components/ExampleComponent.vue")}
+2024-11-03T19:42:38.687324Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:43:13.188058Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("shared/components/ExampleComponent.vue")}
+2024-11-03T19:43:13.188145Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T19:44:29.591833Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".eslintrc.js")}
+2024-11-03T19:44:29.591880Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
