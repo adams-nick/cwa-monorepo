@@ -37,7 +37,7 @@ jobs:
     strategy:
       matrix:
         client: [
-            "clients/vercel-project-1/client-1",
+            "clients/vercel_1/client_1",
             # Add additional clients here as needed
           ]
 
