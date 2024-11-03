@@ -40,3 +40,17 @@
 2024-11-03T19:56:44.054998Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
 2024-11-03T20:03:06.432692Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/ci-cd.yml")}
 2024-11-03T20:03:06.432780Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T20:20:21.733989Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/nuxt.config.js")}
+2024-11-03T20:20:21.734040Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T20:20:57.833196Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/nuxt.config.js")}
+2024-11-03T20:20:57.833223Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T20:21:28.540934Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/custom/custom-styles.scss")}
+2024-11-03T20:21:28.557326Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T20:21:30.333646Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/custom/custom-styles.scss")}
+2024-11-03T20:21:30.333678Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T20:21:40.933741Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/nuxt.config.js")}
+2024-11-03T20:21:40.933765Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T20:22:05.234152Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/custom/custom-styles.scss")}
+2024-11-03T20:22:05.234235Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-11-03T20:22:06.032555Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("clients/vercel_1/client_1/custom/custom-styles.scss")}
+2024-11-03T20:22:06.032615Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))

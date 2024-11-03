@@ -3,6 +3,10 @@ import { resolve } from "path"
 
 export default {
   ...baseConfig,
+  css: [
+    ...baseConfig.css, // Load shared CSS first
+    "./custom/custom-styles.scss", // Consistent relative path for client-specific CSS
+  ],
   alias: {
     "@shared": resolve(__dirname, "../../../shared"),
   },
