@@ -20,7 +20,8 @@
     "dev": "turbo run dev --scope=client-1",
     "build": "turbo run build",
     "start": "turbo run start",
-    "lint": "eslint . --ext .js,.ts,.vue"
+    "lint": "eslint . --ext .js,.ts,.vue",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "workspaces": [
     "clients/vercel-project-1/client-1"

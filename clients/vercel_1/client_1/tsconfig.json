@@ -2,8 +2,8 @@
   "extends": "../../../tsconfig.json",
   "include": [
     "nuxt.config.js", // Target only the Nuxt config file for each client
-    "./custom-code.ts", // Custom code for client
-    "./firebase-handler.ts" // Firebase handler if needed
+    "custom/custom-code.ts", // Custom code for client
+    "custom/firebase-handler.ts" // Firebase handler if needed
   ],
   "exclude": [
     "node_modules",
